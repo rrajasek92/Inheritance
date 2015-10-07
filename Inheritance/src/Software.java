@@ -21,6 +21,9 @@ public class Software extends Product
     public String toString()
     {
         return super.toString() + "Version:     " +
-            version + "\n";
+            version + "\nCode:        " + code + "\n" +
+            "Description: " + description + "\n" +
+            "Price:       " + this.getFormattedPrice() + 
+            "\n";
     }
 }

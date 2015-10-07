@@ -23,6 +23,9 @@ public class Book extends Product
     public String toString()
     {
         return super.toString() + "Author:      " +
-            author + "\n";
+            author + "\n"+"Code:        " + code + "\n" +
+            "Description: " + description + "\n" +
+            "Price:       " + this.getFormattedPrice() + 
+            "\n";
     }
 }
